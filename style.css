@@ -41,7 +41,101 @@ main {
 
     padding: 40px 140px;
 }
+.temperature {
+    width: 100%;
+    height: 200px;
 
+    margin: 20px 0px;
+    padding: 20px 40px;
+
+    background-color: #E8A33D;
+    border-radius: 16px;
+}
+
+.temperature-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.temperature-headline {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.temperature-underline {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.humidity {
+    width: 100%;
+    height: 200px;
+
+    margin: 20px 0px;
+    padding: 20px 40px;
+
+    background-color: #3E7CB1;
+    border-radius: 16px;
+}
+
+.humidity-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.humidity-headline {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.humidity-underline {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.air-pressure {
+    width: 100%;
+    height: 200px;
+
+    margin: 20px 0px;
+    padding: 20px 40px;
+
+    background-color: #4C9A6A;
+    border-radius: 16px;
+}
+
+.air-pressure-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.air-pressure-headline {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.air-pressure-underline {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
 footer {
     width: 100%;
