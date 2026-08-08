@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weatherstation One</title>
-    <link src="style.css" rel="stylesheet">
-    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -25,7 +24,7 @@
                     <img src="#" alt="temperature">
                 </div>
                 <div>
-                    <h2>6.9 Grad</h2>
+                    <p>6.9 Grad</p>
                     <p>falling - -0.8 Grad/h</p>
                 </div>
             </div>
@@ -37,7 +36,7 @@
                     <img src="#" alt="humidity">
                 </div>
                 <div>
-                    <h2>78 %</h2>
+                    <p>78 %</p>
                     <p>rising - +1.0 %/h</p>
                 </div>
             </div>
@@ -49,14 +48,14 @@
                     <img src="#" alt="air-pressure">
                 </div>
                 <div>
-                    <h2>1016.5 hPa</h2>
+                    <p>1016.5 hPa</p>
                     <p>rising - +0,5 hPa/h</p>
                 </div>
             </div>
         </section>
         <section class="temperature-chart">
             <div class="temperature-chart-headline">
-                <h3>temperature</h3>
+                <h2>temperature</h2>
                 <p>Last 24 hours, measured hourly</p>
             </div>
             <div class="temperature-chart-area">
@@ -65,7 +64,7 @@
         </section>
         <section class="latest-measurements">
             <div class="latest-measurements-headline">
-                <h3>latest-measurements</h3>
+                <h2>latest-measurements</h2>
             </div>
             <div class="latest-measurements-table">
 
@@ -77,6 +76,7 @@
             <p>ESP32 · BME280 · Transmission via Wi-Fi to Supabase · Demo-Data</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
