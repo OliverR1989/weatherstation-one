@@ -33,11 +33,9 @@ header {
 
 main {
     width: 100%;
-    height: calc(100% - 280px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
 
     padding: 0px 140px;
 }
@@ -97,6 +95,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.value-headline img {
+    width: 24px;
+    height: 24px;
+    stroke: white;
 }
 
 .value-underline {
