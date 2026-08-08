@@ -81,4 +81,22 @@ body {
 
 h1 {
     font-family: 'Space Grotesk', sans-serif;
+    font-size: 36px;
+}
+span {
+    color: #2C5D89;
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+}
+
+.principal-value {
+    color: white;
+    font-size: 36px;
+}
+
+.changed-value {
+    color: white;
 }
