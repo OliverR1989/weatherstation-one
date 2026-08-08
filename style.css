@@ -3,18 +3,23 @@
     margin: 0;
     scroll-behavior: smooth;
 }
+
 h1 {
     color: #1B2A3A;
 }
+
 body {
     background-color: #F7F3EA;
 }
+
 header {
     width: 100%;
     height: 140px;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    padding: 40px 140px;
 }
 
 .headline {
@@ -23,7 +28,27 @@ header {
     align-items: center;
     justify-content: space-around;
 
-    padding: 40px 140px;
+    border-bottom: 2px solid rgba(27,42,58,0.12);
+}
 
-    border-bottom: 2px solid black;
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 40px 140px;
+}
+
+
+footer {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px 140px;
 }
