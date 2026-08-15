@@ -115,21 +115,26 @@ main {
     width: 100%;
     height: 400px;
 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
     margin: 20px 0px;
     padding: 20px 40px;
 
     background-color: white;
     border-radius: 16px;
 }
-
 .temperature-chart-headline {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
+.temperature-chart-area {
+    height: 100%;
+}
 .latest-measurements {
     width: 100%;
     height: 600px;

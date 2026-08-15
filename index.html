@@ -8,13 +8,14 @@
     <link href="style.css" rel="stylesheet">
     <link href="./styles/typography.css" rel="stylesheet">
     <link href="./styles/mediaquery.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
     <header>
         <div class="headline">
             <h1>Weather<span>station</span> One</h1>
-            <p><strong>Online</strong> - balcony <br>Updated 2 minutes ago</p>
+            <p id="timestamp"><strong>Online</strong> - balcony <br>Updated 2 minutes ago</p>
         </div>
     </header>
     <main>
@@ -59,10 +60,10 @@
         <section class="temperature-chart">
             <div class="temperature-chart-headline">
                 <h2>temperature</h2>
-                <p>Last 24 hours, measured hourly</p>
+                <p>Last 20 minutes, measured minutly</p>
             </div>
             <div class="temperature-chart-area">
-
+                <canvas id="temperatureChart"></canvas>
             </div>
         </section>
         <section class="latest-measurements">
@@ -70,7 +71,7 @@
                 <h2>latest-measurements</h2>
             </div>
             <div class="latest-measurements-table">
-
+                
             </div>
         </section>
     </main>
