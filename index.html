@@ -15,7 +15,7 @@
     <header>
         <div class="headline">
             <h1>Weather<span>station</span> One</h1>
-            <p id="timestamp"><strong>Online</strong> - balcony <br>Updated 2 minutes ago</p>
+            <p id="timestamp"></p>
         </div>
     </header>
     <main>
@@ -24,10 +24,9 @@
                 <div class="value-card temperature-card">
                     <div class="value-headline temperature-headline">
                         <p class="title">temperature</p>
-                        <img src="./assets/icons/temperature.svg" alt="temperature">
                     </div>
                     <div class="value-underline temperature-underline">
-                        <p class="principal-value">6.9 Grad</p>
+                        <p class="principal-value"></p>
                         <p class="changed-value">falling - -0.8 Grad/h</p>
                     </div>
                 </div>
@@ -36,10 +35,9 @@
                 <div class="value-card humidity-card">
                     <div class="value-headline humidity-headline">
                         <p class="title">humidity</p>
-                        <img src="./assets/icons/droplet.svg" alt="humidity">
                     </div>
                     <div class="value-underline humidity-underline">
-                        <p class="principal-value">78 %</p>
+                        <p class="principal-value"></p>
                         <p class="changed-value">rising - +1.0 %/h</p>
                     </div>
                 </div>
@@ -48,10 +46,9 @@
                 <div class="value-card air-pressure-card">
                     <div class="value-headline air-pressure-headline">
                         <p class="title">air-pressure</p>
-                        <img src="./assets/icons/gauge.svg" alt="air-pressure">
                     </div>
                     <div class="value-underline air-pressure-underline">
-                        <p class="principal-value">1016.5 hPa</p>
+                        <p class="principal-value"></p>
                         <p class="changed-value">rising - +0,5 hPa/h</p>
                     </div>
                 </div>
@@ -71,7 +68,20 @@
                 <h2>latest-measurements</h2>
             </div>
             <div class="latest-measurements-table">
-                
+                <div class="latest-measurements-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Zeit</th>
+                                <th>Temperatur</th>
+                                <th>Luftfeuchtigkeit</th>
+                                <th>Luftdruck</th>
+                            </tr>
+                        </thead>
+                        <tbody id="messungenTabelle">
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </section>
     </main>
