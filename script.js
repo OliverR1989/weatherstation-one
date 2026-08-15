@@ -7,6 +7,7 @@ async function ladeMessdaten() {
         apikey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpsamhxbXl5Z2duemFwaW5wb2hjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODYyMDIyODcsImV4cCI6MjEwMTc3ODI4N30.M7367sm8PncClNGrlo9P5gkONkqVzwh2EXjD2V-O7Ms'
       }
     });
+
     const daten = await response.json();
     const neuesteMessung = daten[0];
 
@@ -19,4 +20,4 @@ async function ladeMessdaten() {
   }
 }
 
-ladeMessdaten();
+setInterval(ladeMessdaten, 60000);
